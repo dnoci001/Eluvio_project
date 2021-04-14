@@ -35,5 +35,5 @@ corresponds to the class of 5 or more upvotes.
 
 # Conclusions
 I have developed a model that can aid in a pipeline used to serve content to users. Given the difficulty of the problem
-the performance of the model is decent. Improvement could be accomplished by hyperparameter optimization of potentially
+the performance of the model is decent. Improvement could be accomplished by hyperparameter optimization or potentially
 using an RNN (LSTM,GRU) in place of the embedding bag.
