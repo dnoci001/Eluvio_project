@@ -22,5 +22,13 @@ which then feeds into a final layer to reduce to our two classes.
 ![](https://github.com/dnoci001/Eluvio_project/blob/main/images/torchviz.png)
 
 # Results
-
+With the median of upvotes being 5 the distinction between the two classes is quiete difficult to
+define, that being said my simple model is able to assign the correct class ~56% of the time.
+Below is the confusion matrix where 0 corresponds to the class of less than 5 upvotes and 1
+corresponds to the class of 5 or more upvotes.
 ![](https://github.com/dnoci001/Eluvio_project/blob/main/images/confusion_mat.png)
+
+# Conclusions
+I have developed a model that can aid in a pipeline used to serve content to users. Given the difficulty of the problem
+the performance of the model is decent. Improvement could be accomplished by hyperparameter optimization of potentially
+using an RNN (LSTM,GRU) in place of the embedding bag.
