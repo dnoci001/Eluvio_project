@@ -10,6 +10,8 @@ article as input and classify the article as having < than the median number of 
 or >= to the median number of upvotes. While the model is not perfect it could potential
 inform the decision to the extent to which content should be served to users. 
 
+All work is done in jupyter notebook file [title2upvotes.ipynb](https://github.com/dnoci001/Eluvio_project/blob/main/title2upvotes.ipynb)
+
 # Model
 We are to treat the given csv as a very large file, so I have pandas read the csv file in chunks 
 and save them in their respective folders (train,valid,test). A custom pytorch dataloader was written
