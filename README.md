@@ -28,7 +28,7 @@ define.
 ![](https://github.com/dnoci001/Eluvio_project/blob/main/images/upvotes_hist.png)
 
 That being said my simple model is able to assign the correct class ~56% of the time.
-Below is the confusion matrix where 0 corresponds to the class of less than 5 upvotes and 1
+Below is the confusion matrix from the test set where 0 corresponds to the class of less than 5 upvotes and 1
 corresponds to the class of 5 or more upvotes.
 
 ![](https://github.com/dnoci001/Eluvio_project/blob/main/images/confusion_mat.png)
