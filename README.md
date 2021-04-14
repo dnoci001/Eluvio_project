@@ -1,13 +1,13 @@
 ## Eluvio_project
-# Goal predict potential amount of upvotes from title of news article.
-Serving relevant content to users is essiential to keep them engaged on any platform.
+# Goal predict potential amount of up votes from title of news article.
+Serving relevant content to users is essential to keep them engaged on any platform.
 Thompson and UCB sampling can be used to asses the popularity of content.
-Recomender systems can be used to choose content that aligns with a users interest.
+Recommender systems can be used to choose content that aligns with a users interest.
 However, having an a priori understanding of content's merit before serving can limit the users 
-exposure to boring or unrelevant content that might drive them away from your platform.
+exposure to boring or poor content that might drive them away from your platform.
 To aid in this I have developed a classification model that will take the title of an 
-article as input and classify the article as having < than the median number of upvotes
-or >= to the median number of upvotes. A model like this could potential be a component in a pipeline
+article as input and classify the article as having < than the median number of up votes
+or >= to the median number of up votes. A model like this could potential be a component in a pipeline
 that us used to decide which content to serve to a user. 
 
 All work is done in jupyter notebook file [title2upvotes.ipynb](https://github.com/dnoci001/Eluvio_project/blob/main/title2upvotes.ipynb)
@@ -24,14 +24,14 @@ which then feeds into a final layer to reduce to our two classes.
 ![](https://github.com/dnoci001/Eluvio_project/blob/main/images/torchviz.png)
 
 # Results
-With the median of upvotes being 5 the distinction between the two classes is quiete difficult to
+With the median of up votes being 5 the distinction between the two classes is quiete difficult to
 define.
 
 ![](https://github.com/dnoci001/Eluvio_project/blob/main/images/upvotes.png)
 
 That being said my simple model is able to assign the correct class ~56% of the time.
-Below is the confusion matrix from the test set where 0 corresponds to the class of less than 5 upvotes and 1
-corresponds to the class of 5 or more upvotes.
+Below is the confusion matrix from the test set where 0 corresponds to the class of less than 5 up votes and 1
+corresponds to the class of 5 or more up votes.
 
 ![](https://github.com/dnoci001/Eluvio_project/blob/main/images/confusion_mat.png)
 
