@@ -23,9 +23,14 @@ which then feeds into a final layer to reduce to our two classes.
 
 # Results
 With the median of upvotes being 5 the distinction between the two classes is quiete difficult to
-define, that being said my simple model is able to assign the correct class ~56% of the time.
+define.
+
+![](https://github.com/dnoci001/Eluvio_project/blob/main/images/upvotes_hist.png)
+
+That being said my simple model is able to assign the correct class ~56% of the time.
 Below is the confusion matrix where 0 corresponds to the class of less than 5 upvotes and 1
 corresponds to the class of 5 or more upvotes.
+
 ![](https://github.com/dnoci001/Eluvio_project/blob/main/images/confusion_mat.png)
 
 # Conclusions
