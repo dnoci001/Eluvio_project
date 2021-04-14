@@ -14,6 +14,13 @@ inform the decision to the extent to which content should be served to users.
 We are to treat the given csv as a very large file, so I have pandas read the csv file in chunks 
 and save them in their respective folders (train,valid,test). A custom pytorch dataloader was written
 to handle these chunks in the training of our model and tokenization. I used torchtext's tokenizer
-to create a word based vocabulary from the training set.
+to create a word based vocabulary from the training set. Below is the torchviz output for my model.
+I use an embedding bag to go from the vocabulary of 120k words to a dimension of 2048. A dense
+layer is used to further reduce this to 512. This is fed into a dense residual block of 4 layers 
+which then feeds into a final layer to reduce to our two classes.
+
+![](https://github.com/dnoci001/Eluvio_project/blob/main/images/torchviz.png)
 
 # Results
+
+![](https://github.com/dnoci001/Eluvio_project/blob/main/images/confusion_mat.png)
