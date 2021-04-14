@@ -7,8 +7,8 @@ However, having an a priori understanding of content's merit before serving can 
 exposure to boring or unrelevant content that might drive them away from your platform.
 To aid in this I have developed a classification model that will take the title of an 
 article as input and classify the article as having < than the median number of upvotes
-or >= to the median number of upvotes. While the model is not perfect it could potential
-inform the decision to the extent to which content should be served to users. 
+or >= to the median number of upvotes. A model like this could potential be a component in a pipeline
+that us used to decide which content to serve to a user. 
 
 All work is done in jupyter notebook file [title2upvotes.ipynb](https://github.com/dnoci001/Eluvio_project/blob/main/title2upvotes.ipynb)
 
